@@ -61,7 +61,7 @@ def lat():
                 pr[i] = row.mid
 
         print(pr)
-    return jsonify(pr)
+    return jsonify(list(pr.keys()))
 
 if __name__ == "__main__":
     app.run()
